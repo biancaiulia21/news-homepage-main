@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="page__wrapper">
+      <!--Header section starts-->
+      <header class="header">
+        <div class="header__logo">
+          <img src="./assets/images/logo.svg" alt="">
+        </div>
+
+        <!--MENU BARS-->
+        <div class="navbar__toggle" id="mobile__menu">
+          <span class="toggle__bar"></span>
+          <span class="toggle__bar"></span>
+          <span class="toggle__bar"></span>
+        </div>
+
+
+        <div class="page__menu">
+          <ul class="page__menu__links">
+            <li><a href="/" target="_self">Home</a></li>
+            <li><a href="/" target="_self">New</a></li>
+            <li><a href="/" target="_self">Popular</a></li>
+            <li><a href="/" target="_self">Trending</a></li>
+            <li><a href="/" target="_self">Categories</a></li>
+          </ul>
+        </div>
+      </header>
+      <!--Header section ends-->
+
+      <!--PAGE CONTENT-->
+
+      <div class="page__grid">
+        <!--Main section starts-->
+        <main class="main__page">
+          <div class="desktop__img">
+            <img class="desktop" src="./assets/images/image-web-3-desktop.jpg" alt="desktop">
+            <img class="mobile"src="./assets/images/image-web-3-mobile.jpg" alt="mobile">
+          </div>
+          <div class="hero__main">
+            <div class="hero__main__title">
+              <h1>The Bright Future of Web 3.0?</h1>
+            </div>
+            
+            <div class="hero__info">
+              <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                But is it really fulfilling its promise?</p>
+                <button class="btn">Read more</button>
+            </div>
+    
+          </div>
+    
+          <nav class="side__main">
+            <h1>New</h1>
+            <div class="side__info__text">
+              <h2>Hydrogen VS Electric Cars</h2>
+              <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </div>
+      
+            <span class="bar"></span>
+      
+            <div class="side__info__text">
+              <h2>The Downsides of AI Artistry</h2>
+              <p>What are the possible adverse effects of on-demand AI image generation?</p>
+            </div>
+      
+            <span class="bar"></span>
+      
+            <div class="side__info__text">
+              <h2>Is VC Funding Drying Up?</h2>
+              <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+            </div>
+      
+          </nav>
+    
+        </main>
+    
+        <!--Header section ends-->
+
+        <!--Footer section starts-->
+    
+        <footer class="footer">
+          <div class="footer__site">
+            <img src="./assets/images/image-retro-pcs.jpg" alt="retro_pc">
+            <div class="site__info">
+              <h1>01</h1>
+              <h2>Reviving Retro PCs</h2>
+              <p>What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </div>
+    
+          <div class="footer__site">
+            <img src="./assets/images/image-top-laptops.jpg" alt="top_laptops">
+            <div class="site__info">
+              <h1>02</h1>
+              <h2>Top 10 Laptops of 2022</h2>
+              <p>Our best picks for various needs and budgets.</p>
+            </div>
+          </div>
+    
+          <div class="footer__site">
+            <img src="./assets/images/image-gaming-growth.jpg" alt="gaming">
+            <div class="site__info">
+              <h1>03</h1>
+              <h2>The Growth of Gaming</h2>
+              <p>How the pandemic has sparked fresh opportunities.</p>
+            </div>
+          </div>
+        </footer>
+        <!--Footer section ends-->
+  
+      </div>
+      <!--PAGE ENDS-->
+      
+    </div>
+    
+
+  </div>
+
+  
+  <script src="script.js"></script>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Bianca</a>.
+  </div>
+</body>
+</html>
